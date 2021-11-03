@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Mon, 06 May 2019 12:45:35 +0000
+Source: db4.8
+Binary: db4.8-doc db4.8-util libdb-dev libdb4.8 libdb4.8++ libdb4.8++-dev libdb4.8-dev libdb4.8-tcl
+Built-For-Profiles: noudep nocheck noinsttest nojava nosql
+Architecture: all amd64
+Version: 4.8.30-buster1
+Distribution: buster
+Urgency: medium
+Maintainer: Clint Adams <schizo@debian.org>
+Changed-By: Luke Dashjr <luke-jr+PPA@utopios.org>
+Description:
+ db4.8-doc  - Berkeley v4.8 Database Documentation [html]
+ db4.8-util - Berkeley v4.8 Database Utilities
+ libdb-dev  - Berkeley v4.8 Database Libraries [dummy metapackage]
+ libdb4.8   - Berkeley v4.8 Database Libraries [runtime]
+ libdb4.8++ - Berkeley v4.8 Database Libraries for C++ [runtime]
+ libdb4.8++-dev - Berkeley v4.8 Database Libraries for C++ [development]
+ libdb4.8-dev - Berkeley v4.8 Database Libraries [development]
+ libdb4.8-tcl - Berkeley v4.8 Database Libraries for Tcl [module]
+Changes:
+ db4.8 (4.8.30-buster1) buster; urgency=medium
+ .
+   * PPA
+Checksums-Sha1:
+ 450b50fae1409d1fcabffa8f9e8103904a4ad2ee 14721052 db4.8-doc_4.8.30-buster1_all.deb
+ a672083db1e97bfb07943b124bd2741efa924e1a 376360 db4.8-util_4.8.30-buster1_amd64.deb
+ bc5877fd436d78ad4d50d73d56cecc52ae31fd98 7865 db4.8_4.8.30-buster1_amd64.buildinfo
+ b5d2a0097eeb14818f3ccf810749efefb37d8423 5784 libdb-dev_4.8.30-buster1_amd64.deb
+ 4dd6512d620627cf84ee6a77c4a382b7115ef0b7 9898176 libdb4.8++-dev_4.8.30-buster1_amd64.deb
+ 5e3eae1105b33d1e35100b6ac280d7dbe196f9d6 2356164 libdb4.8++_4.8.30-buster1_amd64.deb
+ 6cbe17f454ff49e3b5e425c3ce72e4d935a607bc 21400024 libdb4.8-dev_4.8.30-buster1_amd64.deb
+ 2e3712cab9daf5bd0a99cae608c341d15d3cb3f9 6015556 libdb4.8-tcl_4.8.30-buster1_amd64.deb
+ 052f6e351e7ed1872b805babf1f38820fe5e64ed 2165936 libdb4.8_4.8.30-buster1_amd64.deb
+Checksums-Sha256:
+ e438e6b1a3dd91680749fbcda7513e3ec49feab414a1583f597a8fdbd2a293d0 14721052 db4.8-doc_4.8.30-buster1_all.deb
+ 8a88820c0d8ebf5fa6990e0ef75bad66bf8683ef5555788982afa30c4d3d1ad5 376360 db4.8-util_4.8.30-buster1_amd64.deb
+ b82e3131303d2a1a4737c5f804463bd539cd5132861dc1a59e14b93fe361525d 7865 db4.8_4.8.30-buster1_amd64.buildinfo
+ 7cb350ec160ed7df4e201006b0611145d90b0c93c74cd0ca3c06ade88e2bd9b9 5784 libdb-dev_4.8.30-buster1_amd64.deb
+ 1370458af393c63ab24ca4734fce037ebfecc67c59799ea96b2db557ef3a2e93 9898176 libdb4.8++-dev_4.8.30-buster1_amd64.deb
+ 0b4ae9b107511308aa367ccab65a58c9f0de6657bc950b3261a7133c7f85ef33 2356164 libdb4.8++_4.8.30-buster1_amd64.deb
+ 43a5a5ef13534eee642f78be953fbac6417ab00b415405de128eb90be996e537 21400024 libdb4.8-dev_4.8.30-buster1_amd64.deb
+ 9593eda6abf206b8637d58bc5f181079e7e3a39fb82dee3649f7064853996248 6015556 libdb4.8-tcl_4.8.30-buster1_amd64.deb
+ 5bff2d065554ee71d7b44dc7f5396813d0fac9d861d2e26b15119f22d661aeb3 2165936 libdb4.8_4.8.30-buster1_amd64.deb
+Files:
+ 8244cec3729bf2a955c2a9572bb879a2 14721052 doc optional db4.8-doc_4.8.30-buster1_all.deb
+ 46aa19fe463771c87996fbc985df6efa 376360 utils optional db4.8-util_4.8.30-buster1_amd64.deb
+ f5af0d2d2fd99571c22199fe2037eb65 7865 libs standard db4.8_4.8.30-buster1_amd64.buildinfo
+ a55c62a35e4c85d3c269e1c627763459 5784 libdevel important libdb-dev_4.8.30-buster1_amd64.deb
+ 50eb28fab4346362bd21fd4566fb6a8c 9898176 libdevel important libdb4.8++-dev_4.8.30-buster1_amd64.deb
+ e8199eb2e4b45ed5c303c239463b295d 2356164 libs important libdb4.8++_4.8.30-buster1_amd64.deb
+ 2c99b717ae5e73ecc33dc00c0020e3d1 21400024 libdevel important libdb4.8-dev_4.8.30-buster1_amd64.deb
+ 9f3b70cba68101f8f852870db3a96d20 6015556 interpreters extra libdb4.8-tcl_4.8.30-buster1_amd64.deb
+ abc3a7d09c57c7d8c4440c9428522661 2165936 libs important libdb4.8_4.8.30-buster1_amd64.deb
